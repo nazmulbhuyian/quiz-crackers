@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const FourMcq = (option) => {
     const {correctAnswer} = option;
-    // console.log(option, correctAnswer);
+    
     const answer =(option) =>{
         if(option.option === correctAnswer){
              toast("Wow You Are Right!");
