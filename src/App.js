@@ -34,10 +34,6 @@ function App() {
           element: <Analycis></Analycis>
         },
         {
-          path: '/contract',
-          element: <Contract></Contract>
-        },
-        {
           path: '*',
           element: <div className='mt-72 ml-96 text-5xl'>No Data Found</div>
         }

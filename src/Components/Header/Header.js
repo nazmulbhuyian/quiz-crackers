@@ -11,7 +11,6 @@ const Header = () => {
             <Link className='mx-3 text-2xl' to='/'>Home</Link>
             <Link className='mx-3 text-2xl' to='/blog'>Blog</Link>
             <Link className='mx-3 text-2xl' to='/analycis'>Analycis</Link>
-            <Link className='mx-3 text-2xl' to='/contract'>Contract</Link>
         </div>
         </div>
     );
