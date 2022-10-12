@@ -8,10 +8,10 @@ const HomeComponents = ({language}) => {
     return (
         
             <div>
-                <div className='bg-slate-600 p-7'>
+                <div className='bg-slate-600 p-7 mx-20'>
                 <img src={logo} alt="" className='w-72' />
                 <h1 className='text-4xl bold text-white'>{name}</h1>
-                <p className='text-white'>{total}</p>
+                <p className='text-white'>Total Question: {total}</p>
                 <Link to = {`/question/${id}`}>
                 <button className='bg-red-400 p-3 text-white rounded-lg'>See Question</button>
                 </Link>
