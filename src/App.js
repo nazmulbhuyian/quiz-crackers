@@ -33,7 +33,7 @@ function App() {
         },
         {
           path: '*',
-          element: <div className='mx-96 my-96 w-2/4 text-5xl'>No Data Found</div>
+          element: <div className='mt-72 ml-96 text-5xl'>No Data Found</div>
         }
       ]
     },

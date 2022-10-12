@@ -1,6 +1,8 @@
 import React from 'react';
 import FourMcq from '../FourMcq/FourMcq';
 import { EyeIcon } from '@heroicons/react/24/solid'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const AllMCQ = ({ALLMCQ}) => {
     //   console.log(ALLMCQ);
@@ -8,7 +10,7 @@ const AllMCQ = ({ALLMCQ}) => {
 
     const eye =() =>{
         
-        alert(correctAnswer);
+        toast(correctAnswer);
     }
 
     return (
@@ -17,6 +19,7 @@ const AllMCQ = ({ALLMCQ}) => {
             <div className='flex items-center justify-between'>
             <h1 className='text-2xl bolder'>{question}</h1>
             <EyeIcon onClick={()=>eye()} className="h-6 w-6 text-blue-500"/>
+            <ToastContainer></ToastContainer>
             </div>
 
             <div className='grid grid-cols-2 gap-4 text-left mt-4'>
