@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Analycis from './Components/Analycis/Analycis';
 import Blog from './Components/Blog/Blog';
-import Contract from './Components/Contract/Contract';
 import Home from './Components/Home/Home';
 import Main from './Components/Main/Main';
 import Question from './Components/Question/Question';
