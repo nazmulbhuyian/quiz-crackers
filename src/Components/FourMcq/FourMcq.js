@@ -16,7 +16,7 @@ const FourMcq = (option) => {
     }
     return (
         <div>
-            <Link onClick={() => answer(option)}><h1 className='text-white bg-slate-600 p-4 rounded-lg text-center'>{option.option}</h1></Link>
+            <Link onClick={() => answer(option)}><h1 className='hover:bg-sky-700 text-white bg-slate-600 p-4 rounded-lg text-center'>{option.option}</h1></Link>
             <ToastContainer />
         </div>
     );

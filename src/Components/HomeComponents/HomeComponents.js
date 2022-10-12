@@ -13,7 +13,7 @@ const HomeComponents = ({language}) => {
                 <h1 className='text-4xl bold text-white'>{name}</h1>
                 <p className='text-white'>Total Question: {total}</p>
                 <Link to = {`/question/${id}`}>
-                <button className='bg-red-400 p-3 text-white rounded-lg'>See Question</button>
+                <button className='bg-red-400 p-3 text-white rounded-lg hover:bg-red-700'>See Question</button>
                 </Link>
                 </div>
                 
