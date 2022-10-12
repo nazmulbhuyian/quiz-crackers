@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='ml-52 mr-52 mt-28 bg-gray-400'>
+        <div className='md:ml-52 md:mr-52 mx-10 mt-28 bg-gray-400'>
             <div className='border-2 p-5 border-black mb-5'>
             <h1 className='text-4xl text-white'>What is the purpose of react router</h1>
             <p>ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application.

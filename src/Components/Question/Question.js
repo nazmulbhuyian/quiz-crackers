@@ -8,7 +8,7 @@ const Question = () => {
     const{questions} = Questions
 
     return (
-        <div className='ml-52 mr-52'>
+        <div className='md:ml-52 md:mr-52 mx-10'>
             {
                 questions.map(ALLMCQ => <AllMCQ ALLMCQ={ALLMCQ}></AllMCQ>)
             }
