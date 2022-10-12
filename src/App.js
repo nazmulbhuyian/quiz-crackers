@@ -1,6 +1,7 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Analycis from './Components/Analycis/Analycis';
 import Blog from './Components/Blog/Blog';
 import Contract from './Components/Contract/Contract';
 import Home from './Components/Home/Home';
@@ -26,6 +27,11 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '/analycis',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Analycis></Analycis>
         },
         {
           path: '/contract',
